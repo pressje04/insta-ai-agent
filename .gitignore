@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtualenv
+venv/
+
+# Output images
+output/
+
+# IDE/editor
+.vscode/
+.DS_Store
+
+.env/
