@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Slide</title>
+  <style>
+    body {
+      width: 1080px;
+      height: 1080px;
+      margin: 0;
+      padding: 40px;
+      font-family: 'Inter', sans-serif;
+      background: #ffffff;
+      color: #111;
+    }
+    .slide {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+    }
+    h1 {
+      font-size: 56px;
+      margin: 0 0 16px;
+      line-height: 1.1;
+    }
+    p {
+      font-size: 36px;
+      line-height: 1.4;
+    }
+    .footer {
+      font-size: 24px;
+      text-align: right;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="slide">
+    <div>
+      <h1>{{ title }}</h1>
+      <p>{{ content }}</p>
+    </div>
+    <div class="footer">YourBrand • Slide {{ index }}</div>
+  </div>
+</body>
+</html>
